@@ -164,6 +164,7 @@ int main(void)
 		  handle_led_timer[i] = xTimerCreate("led_timer", pdMS_TO_TICKS(500), 1, (void*)(i+1), led_effect_callback);
 		  led_effect(i);
 	  }
+	  HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }
