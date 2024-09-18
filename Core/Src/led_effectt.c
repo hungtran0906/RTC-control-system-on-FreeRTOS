@@ -1,5 +1,4 @@
-#include "FreeRTOS.h"
-#include "timers.h"
+
 #include "led_effect.h"
 
 extern TimerHandle_t handle_led_timer[4];

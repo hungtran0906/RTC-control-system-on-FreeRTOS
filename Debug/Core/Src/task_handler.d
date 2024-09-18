@@ -1,4 +1,4 @@
-Core/Src/rtc.o: ../Core/Src/rtc.c ../Core/Inc/rtc.h ../Core/Inc/main.h \
+Core/Src/task_handler.o: ../Core/Src/task_handler.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -38,8 +38,8 @@ Core/Src/rtc.o: ../Core/Src/rtc.c ../Core/Inc/rtc.h ../Core/Inc/main.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
-../Core/Inc/rtc.h:
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ ../Core/Inc/task_handler.h ../Core/Inc/main.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -81,3 +81,5 @@ Core/Src/rtc.o: ../Core/Src/rtc.c ../Core/Inc/rtc.h ../Core/Inc/main.h \
 ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+../Core/Inc/task_handler.h:
+../Core/Inc/main.h:

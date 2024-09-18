@@ -4,13 +4,8 @@
  *  Created on: Sep 15, 2024
  *      Author: Acer
  */
-#include "main.h"
-extern RTC_HandleTypeDef hrtc;
-#include "string.h"
-#include <stdio.h>
-#include "FreeRTOS.h"
-#include "queue.h"
-extern QueueHandle_t q_print;
+#include "rtc.h"
+
 void show_time_data_itm(void) {
 	RTC_DateTypeDef rtc_date;
 	RTC_TimeTypeDef rtc_time;

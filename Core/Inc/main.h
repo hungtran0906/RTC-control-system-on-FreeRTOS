@@ -31,6 +31,11 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "string.h"
+#include <stdio.h>
+#include "FreeRTOS.h"
+#include "queue.h"
+#include "timers.h"
 
 /* USER CODE END Includes */
 

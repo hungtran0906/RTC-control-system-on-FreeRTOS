@@ -1,6 +1,6 @@
-../Core/Src/led_effectt.c:6:5:led_effect_stop	1
-../Core/Src/led_effectt.c:9:5:led_effect	1
-../Core/Src/led_effectt.c:15:6:led_effect1	3
-../Core/Src/led_effectt.c:21:6:led_effect2	3
-../Core/Src/led_effectt.c:27:6:led_effect3	2
-../Core/Src/led_effectt.c:35:6:led_effect4	2
+../Core/Src/led_effectt.c:5:5:led_effect_stop	1
+../Core/Src/led_effectt.c:8:5:led_effect	1
+../Core/Src/led_effectt.c:14:6:led_effect1	3
+../Core/Src/led_effectt.c:20:6:led_effect2	3
+../Core/Src/led_effectt.c:26:6:led_effect3	2
+../Core/Src/led_effectt.c:34:6:led_effect4	2
