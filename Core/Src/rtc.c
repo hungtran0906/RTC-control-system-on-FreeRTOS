@@ -44,11 +44,10 @@ void show_time_date(void) {
 	format = (rtc_time.TimeFormat == RTC_HOURFORMAT12_AM) ? "AM" : "PM";
 	printf((char*) showtime, "%02d:%02d:%02d [%s]", rtc_time.Hours,
 			rtc_time.Minutes, rtc_time.Seconds, format);
-	xQueueCRSend(q_print, &time, portMAX_DELAY);
-
+	xQueueSend(q_print,&time,portMAX_DELAY);
 	printf((char*) showdate, "\t%02d-%02d-%2d\n", rtc_date.Month, rtc_date.Date,
 			2000 + rtc_date.Year);
-	xQueueCRSend(q_print, &date, portMAX_DELAY);
+	xQueueSend(q_print, &date, portMAX_DELAY);
 }
 void rtc_configure_time(RTC_TimeTypeDef *time) {
 
