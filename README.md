@@ -1,5 +1,5 @@
 ## RTC control system on FreeRTOS
-This is my project on STM32F407 Discovery with reference to the Mastering RTOS documentation
+This is my project implemented on STM32F407 Discovery with reference to the Mastering RTOS documentation
 ## Project Requirement
 * Develop a real-time clock control system.
 * Create tasks for UART ,RTC, LED and Software Timer.
